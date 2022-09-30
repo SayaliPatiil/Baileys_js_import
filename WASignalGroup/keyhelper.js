@@ -9,6 +9,15 @@ exports.generateSenderKeyId = function() {
     return nodeCrypto.randomInt(2147483647);
 }
 
+
+
+
+
+
+
+
+
+
 exports.generateSenderSigningKey = function(key) {
     if (!key) {
         key = curve.generateKeyPair();
